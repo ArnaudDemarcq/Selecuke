@@ -66,7 +66,7 @@
     </repositories>
     <properties>
         <slf4j.version>1.6.2</slf4j.version>
-        <selenium.version>2.5.0</selenium.version>
+        <selenium.version>2.19.0</selenium.version>
         <cuke4duke.version>0.4.4</cuke4duke.version>
         <junit.version>4.8.1</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

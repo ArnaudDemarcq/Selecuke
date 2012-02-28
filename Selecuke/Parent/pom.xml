@@ -171,7 +171,7 @@
     </pluginRepositories>
     <properties>
         <!-- Dependencies versions and other pom related stuff -->
-        <selenium.version>2.5.0</selenium.version>
+        <selenium.version>2.19.0</selenium.version>
         <slf4j.version>1.6.2</slf4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Helpers -->
@@ -188,7 +188,7 @@
         <cucumber.env.properties>${project.build.directory}/env.properties</cucumber.env.properties>
         <cucumber.env.data.path>${project.basedir}/src/test/resources/data</cucumber.env.data.path>
         <!-- Env Variables for the test classes put here everything you need -->
-        <cucumber.env.homepage.url>http://www.humanlog.fr</cucumber.env.homepage.url>
+        <cucumber.env.homepage.url>http://www.google.fr</cucumber.env.homepage.url>
         <cucumber.env.webdriver>${driver.firefox}</cucumber.env.webdriver>
     </properties>
 </project>
