@@ -6,7 +6,7 @@
     <name>Selecuke Parent</name>
     <groupId>org.krohm.selecuke</groupId>
     <artifactId>SelecukeParent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <build>
         <!--START:plugins-->
@@ -149,7 +149,7 @@
         <dependency>
             <groupId>org.krohm.selecuke</groupId>
             <artifactId>GenericUtil</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
