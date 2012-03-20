@@ -6,7 +6,7 @@
     <name>Selecuke Parent</name>
     <groupId>org.krohm.selecuke</groupId>
     <artifactId>SelecukeParent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <build>
         <!--START:plugins-->
@@ -60,6 +60,16 @@
                     <artifactId>selenium-maven-plugin</artifactId>
                     <version>2.0</version>
                     <executions>
+                        <execution>
+                            <id>xvfb</id>
+                            <phase>pre-integration-test</phase>
+                            <goals>
+                                <goal>xvfb</goal>
+                            </goals>
+                            <configuration>
+                                <skip>${selenium.useDisplay}</skip>
+                            </configuration>
+                        </execution>
                         <execution>
                             <phase>pre-integration-test</phase>
                             <goals>
@@ -181,6 +191,7 @@
         <testFailureIgnore>true</testFailureIgnore>
         <selecuke.generic.path>${project.build.directory}/selecuke-generic</selecuke.generic.path>
         <selecuke.generic.unpack.include>com.humanlog.selecuke</selecuke.generic.unpack.include>
+        <selenium.useDisplay>true</selenium.useDisplay>
         <selenium.port>8765</selenium.port>
         <cucumber.feature.encoding>UTF-8</cucumber.feature.encoding>
         <cucumber.features>${project.basedir}/src/test/features</cucumber.features>
