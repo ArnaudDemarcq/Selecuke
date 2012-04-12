@@ -6,7 +6,7 @@
     <name>Selecuke Parent</name>
     <groupId>org.krohm.selecuke</groupId>
     <artifactId>SelecukeParent</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.6-SNAPSHOT</version>
     <packaging>pom</packaging>
     <build>
         <!--START:plugins-->
