@@ -5,6 +5,7 @@
 package org.krohm.selecuke.generic.selenium;
 
 import java.io.IOException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,10 +16,11 @@ import org.slf4j.LoggerFactory;
  */
 public class GenericSeleniumUtil {
 
-    private static RemoteWebDriver browser;
+    //private static RemoteWebDriver browser;
+    private static WebDriver browser;
     private static final Logger logger = LoggerFactory.getLogger(GenericSeleniumUtil.class);
 
-    public static RemoteWebDriver getBrowser() {
+    public static WebDriver getBrowser() {
         return browser;
     }
 

@@ -6,7 +6,7 @@
     <name>SelecukeRoot</name>
     <groupId>org.krohm.selecuke</groupId>
     <artifactId>Root</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>GenericUtil</module>
